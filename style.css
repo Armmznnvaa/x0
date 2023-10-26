@@ -1,0 +1,100 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    position: absolute;
+    top: 100px;
+   left: 40rem;
+}
+.ok .fa-x{
+    color: aqua;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.ok .fa-0{
+    color: rgb(255, 225, 127);
+    font-weight: bold;
+    font-size: 40px;
+}
+.btn1{
+    background-color:rgba(31, 53, 64, 1) ;
+    width: 10%;
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.btn2{
+    padding: 13px 13px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    color:rgba(31, 53, 64, 1) ;
+    font-size: 20px;
+    border: none;
+}
+
+
+body{
+    background-color: rgba(25,42,50,1);
+    height: 100vh;
+    position: relative;
+}
+.main {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 30rem;
+    
+}
+
+.board > div {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(31, 53, 64, 1);
+    border:10px solid  rgba(25,42,50,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    border-radius: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/* 
+button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  } */

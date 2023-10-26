@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>X O</title>
+    <link rel="stylesheet"  href="./style.css">
+</head>
+<body>
+    <div class="grid">
+        <div class="up">
+            <div class="ok">
+                <i  class="fa-solid fa-x"></i>
+                <i class="fa-solid fa-0"></i>
+
+            </div>
+            <button class="btn1">
+                <i class="fa-solid fa-x"></i>
+                Turn
+            </button>
+            <button id="restart" class="btn2">
+                <i class="fa-solid fa-arrows-rotate"></i>
+            </button>
+
+        </div>
+        <div class="main">
+            <div class="board">
+                <div class="block-1 block" role="button"></div>
+                <div class="block-2 block" role="button"></div>
+                <div class="block-3 block" role="button"></div>
+                <div class="block-4 block" role="button"></div>
+                <div class="block-5 block" role="button"></div>
+                <div class="block-6 block" role="button"></div>
+                <div class="block-7 block" role="button"></div>
+                <div class="block-8 block" role="button"></div>
+                <div class="block-9 block" role="button"></div>
+            </div>
+         </div>
+         <div>
+            <h1>Turn:</h1>
+            <h2 id="turn">Player 1: X</h1>
+            <h1>Winner:</h1>
+            <h2 id="winner"></h2>
+            <!-- <button id="restart" hidden>Restart</button> -->
+         </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
